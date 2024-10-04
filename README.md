@@ -10,13 +10,13 @@
 git clone https://github.com/4kerus/docker-php-xdebug.git
 cd docker-php-xdebug
 make RUN-BUILD
-
-В docker-compose.yml необходимо указать <serverXdebug> сервер xdebug
 ```
 
-Ваше приложение будет доступно по адресу http://localhost
+Приложение будет доступно по адресу http://localhost.
 
 ```bash
+В docker-compose.yml необходимо указать <serverXdebug> сервер xdebug
+
     environment:
         PHP_IDE_CONFIG: "serverName=<serverXdebug>"
 ```
