@@ -10,3 +10,9 @@
 git clone https://github.com/4kerus/docker-php-xdebug.git
 cd docker-php-xdebug
 make RUN-BUILD
+
+В docker-compose.yml необходимо указать <serverXdebug> сервер xdebug
+
+```bash
+    environment:
+        PHP_IDE_CONFIG: "serverName=<serverXdebug>"
