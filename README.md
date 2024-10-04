@@ -14,9 +14,9 @@ make RUN-BUILD
 
 Приложение будет доступно по адресу http://localhost.
 
-```bash
 В docker-compose.yml необходимо указать <serverXdebug> сервер xdebug
 
+```bash
     environment:
         PHP_IDE_CONFIG: "serverName=<serverXdebug>"
 ```
