@@ -15,3 +15,6 @@ LOGS:
 
 PHP:
 	docker compose exec -it php bash
+
+CHECK-XDEBUG:
+	docker compose exec php php -v
