@@ -17,6 +17,6 @@ make RUN-BUILD
 В docker-compose.yml необходимо указать <serverXdebug> сервер xdebug
 
 ```bash
-    environment:
-        PHP_IDE_CONFIG: "serverName=<serverXdebug>"
+environment:
+    PHP_IDE_CONFIG: "serverName=<serverXdebug>"
 ```
